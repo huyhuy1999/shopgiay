@@ -1,0 +1,11 @@
+2021-07-15T05:26:34+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\shopgiay\wp-includes\wp-db.php on line 2056
+
+2021-07-15T06:06:24+00:00 CRITICAL Uncaught Error: Call to a member function get_instance_option_key() on bool in C:\xampp\htdocs\shopgiay\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:2902
+Stack trace:
+#0 C:\xampp\htdocs\shopgiay\wp-includes\class-wp-hook.php(292): WC_AJAX::shipping_zone_methods_save_changes('')
+#1 C:\xampp\htdocs\shopgiay\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\shopgiay\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\shopgiay\wp-admin\admin-ajax.php(187): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown in C:\xampp\htdocs\shopgiay\wp-content\plugins\woocommerce\includes\class-wc-ajax.php on line 2902
+
